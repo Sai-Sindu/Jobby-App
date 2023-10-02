@@ -1,0 +1,35 @@
+.job-type-filter {
+  list-style-type: none;
+  margin-left: 10px;
+  padding-left: 0;
+}
+.employment-type-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.label-text {
+  font-size: 18px;
+  cursor: pointer;
+}
+.job-type-card {
+  font-size: 18px;
+  margin-top: 10px;
+}
+.salary-range-title {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+.salary-range-card {
+  list-style-type: none;
+  margin-left: 10px;
+  padding-left: 0;
+}
+.salary-range {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-left: 0;
+  padding-left: 0;
+}

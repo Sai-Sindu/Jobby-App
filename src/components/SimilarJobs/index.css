@@ -1,0 +1,71 @@
+.similar-job-card {
+  background-color: #272727;
+  border-radius: 15px;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 30px;
+  margin-right: 30px;
+}
+
+.logo-title-rating-card {
+  display: flex;
+  flex-direction: row;
+}
+.company-logo {
+  height: 60px;
+  width: 60px;
+}
+.title-rating-card {
+  margin-left: 10px;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Roboto';
+}
+.company-title {
+  color: #f8fafc;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.rating-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0;
+}
+.rating-num {
+  color: #f8fafc;
+  margin-left: 5px;
+}
+.heading {
+  color: #f8fafc;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: 'Roboto';
+}
+.description-text {
+  color: #f1f5f9;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.location-job-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.icons-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 20px;
+}
+.icons-text {
+  color: #f8fafc;
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .similar-job-card {
+    width: 100%;
+  }
+}
